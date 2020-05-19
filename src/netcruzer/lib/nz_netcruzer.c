@@ -53,11 +53,11 @@
 
 //USB includes
 #if defined(HAS_SERPORT_USB)
-    #include "USB\usb.h"
+    #include "USB/usb.h"
     #if defined(USB_IS_CDC)
-        #include "USB\usb_function_cdc.h"
+        #include "USB/usb_function_cdc.h"
     #elif defined(USB_IS_HIH)
-        #include "USB\usb_function_hid.h"
+        #include "USB/usb_function_hid.h"
         #include "nz_serI2C.h"
     #endif
 #endif

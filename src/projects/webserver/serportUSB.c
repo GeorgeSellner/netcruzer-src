@@ -38,11 +38,11 @@
 #include "cmd.h"
 
 //Includes required for USB
-#include "USB\usb.h"
+#include "USB/usb.h"
 #if defined(HAS_SERPORT_USB_CDC)
     #include "USB\usb_function_cdc.h"
 #elif defined(HAS_SERPORT_USB_HID)
-    #include "USB\usb_function_hid.h"
+    #include "USB/usb_function_hid.h"
 #endif
 
 //Includes required for Webserver

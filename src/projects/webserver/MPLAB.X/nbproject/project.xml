@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><project xmlns="http://www.netbeans.org/ns/project/1">
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://www.netbeans.org/ns/project/1">
     <type>com.microchip.mplab.nbide.embedded.makeproject</type>
     <configuration>
         <data xmlns="http://www.netbeans.org/ns/make-project/1">
@@ -10,6 +11,51 @@
             <sourceEncoding>ISO-8859-1</sourceEncoding>
             <asminc-extensions>inc</asminc-extensions>
             <make-dep-projects/>
+            <sourceRootList>
+                <sourceRootElem>..</sourceRootElem>
+                <sourceRootElem>../../../netcruzer/lib</sourceRootElem>
+                <sourceRootElem>../../../netcruzer/drivers</sourceRootElem>
+                <sourceRootElem>../../../system</sourceRootElem>
+                <sourceRootElem>../../../codedoc</sourceRootElem>
+                <sourceRootElem>../../../netcruzer/rtos</sourceRootElem>
+            </sourceRootList>
+            <confList>
+                <confElem>
+                    <name>WEBSERVER_SBC66EC_R2</name>
+                    <type>2</type>
+                </confElem>
+                <confElem>
+                    <name>WEBSERVER_SBC66EC_R1</name>
+                    <type>2</type>
+                </confElem>
+                <confElem>
+                    <name>WEBSERVER_SBC66ECL_R2</name>
+                    <type>2</type>
+                </confElem>
+                <confElem>
+                    <name>MODBUS_DEMO1_SBC66EC_R2</name>
+                    <type>2</type>
+                </confElem>
+                <confElem>
+                    <name>PT66DIN6_IO_DEMO1_SBC66EC_R2</name>
+                    <type>2</type>
+                </confElem>
+                <confElem>
+                    <name>DB66DEV1_DEMO1_SBC66EC_R2</name>
+                    <type>2</type>
+                </confElem>
+                <confElem>
+                    <name>SENS_DHT22_DEMO_SBC66EC_R2</name>
+                    <type>2</type>
+                </confElem>
+                <confElem>
+                    <name>UART_TO_UDP_SBC66EC_R2</name>
+                    <type>2</type>
+                </confElem>
+            </confList>
+            <formatting>
+                <project-formatting-style>false</project-formatting-style>
+            </formatting>
         </data>
     </configuration>
 </project>
